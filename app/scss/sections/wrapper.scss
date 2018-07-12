@@ -1,0 +1,15 @@
+.wrapper {
+
+  .container{
+    @extend %clearfix;
+  }
+
+}
+
+.wrapper__left {
+  float: left;
+}
+
+.wrapper__right {
+  float: right;
+}

@@ -1,0 +1,90 @@
+.dish {
+  width: 576px;
+  margin-bottom: 50px;
+  padding: 31px 0 39px 39px;
+  background-color: #f8f9fa;
+  border-radius: 7px;
+  @extend %clearfix;
+}
+
+.dish__main {
+  float: left;
+  width: 260px;
+}
+
+.dish__header {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.dish__rating {
+  margin-bottom: 14px;
+  font-size: 0;
+}
+
+.dish__rating-item {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin-right: 3px;
+  background: url('../images/icons/star-gold.png') 0 0 no-repeat;
+  cursor: pointer;
+}
+
+.dish__rating-item_disabled {
+  background: url('../images/icons/star-disabled.png') 0 0 no-repeat;
+}
+
+.dish__rating-valuation {
+  display: inline-block;
+  margin-left: 12px;
+  @include font(16px, 0.875);
+  vertical-align: bottom;
+  color: #d8d9db;
+}
+
+.dish__status {
+  margin-bottom: 10px;
+  @include font(12px, 1.5);
+  color: #8bc058;
+}
+
+.dish__img {
+  float: left;
+  margin-left: -10px;
+  width: 256px;
+  height: 263px;
+}
+
+.dish__pic {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.dish__information {
+  margin-bottom: 33px;
+}
+
+.dish__information-item {
+  display: inline-block;
+  margin-right: 13px;
+  text-align: center;
+}
+
+.dish__information-value {
+  @include font(16px, 1.125);
+  font-weight: 700;
+  color: #7f8187;
+}
+
+.dish__information-item_divider {
+  font-size: 40px;
+  color: #dfe0e1;
+}
+
+.dish__information-text {
+  @include font(14px, 1.285);
+  color: #d8dadd;
+}
