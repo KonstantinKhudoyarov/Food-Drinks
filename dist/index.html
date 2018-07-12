@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <title>Food & Drinks</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=1300">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+          <div class="wrapper__left">
+            <section class="dish">
+              <div class="dish__main">
+                <h2 class="dish__header">Fresh Linguine, Tomatoes and Herbs</h2>
+                <ul class="dish__rating">
+                  <li class="dish__rating-item"></li>
+                  <li class="dish__rating-item"></li>
+                  <li class="dish__rating-item"></li>
+                  <li class="dish__rating-item"></li>
+                  <li class="dish__rating-item dish__rating-item_disabled"></li>
+                  <li class="dish__rating-valuation">4.1</li>
+                </ul>
+                <h5 class="dish__status">Highly recommended</h5>
+                <ul class="dish__information">
+                  <li class="dish__information-item">
+                    <span class="dish__information-value">20</span>
+                    <br>
+                    <span class="dish__information-text">mins</span>
+                  </li>
+                  <li class="dish__information-item dish__information-item_divider">/</li>
+                  <li class="dish__information-item">
+                    <span class="dish__information-value">196</span>
+                    <br>
+                    <span class="dish__information-text">nutritions</span>
+                  </li>
+                </ul>
+                <button class="btn btn_recipe">Recipe</button>
+              </div>
+              <div class="dish__img">
+                <img src="images/dish.png" alt="dish" class="dish__pic">
+              </div>
+            </section>
+            <section class="meal">
+              <h2 class="meal__header">My Friday Meal</h2>
+              <ul class="meal__list">
+                <li class="meal__item">
+                  <div class="meal__check">
+                    <input id="shrimps" class="meal__checkbox" type="checkbox" name="meal" value="shrimps" checked>
+                    <label for="shrimps" class="meal__label"></label>
+                  </div>
+                  <p class="meal__text">Shrimps  with chili and nuts</p>
+                </li>
+                <li class="meal__item">
+                  <div class="meal__check">
+                    <input id="fried" class="meal__checkbox" type="checkbox" name="meal" value="fried">
+                    <label for="fried" class="meal__label"></label>
+                  </div>
+                  <p class="meal__text">Fried fish with olives and salami</p>
+                </li>
+              </ul>
+              <button class="btn btn_meal-order">Order</button>
+            </section>
+            <section class="cofee">
+              <div class="cofee__main">
+                <h3 class="cofee__sub-title">The summer of 2015</h3>
+                <h2 class="cofee__title">New Flavour</h2>
+                <div class="cofee__divider"></div>
+                <p class="cofee__text">
+                  <span class="cofee__text-inner">Capture the last moments of summer drinking our latest espresso.</span>
+                </p>
+              </div>
+              <button class="btn btn_cofee-order">Order now</button>
+            </section>
+          </div>
+          <div class="wrapper__right">
+            <section class="description">
+              <div class="description__wrap">
+                <h1 class="description__header">
+                  Food & Drinks UI
+                </h1>
+
+              </div>
+            </section>
+            <section class="burger">
+              <div class="burger__main">
+                <h2 class="burger__title">Mystery Box Burger</h2>
+                <h3 class="burger__sub-title">Step by step recipe</h3>
+                <span class="burger__cooking-time">~ 20 min</span>
+                <div class="burger__rating">
+                  <img src="images/icons/star.png" alt="star" class="burger__rating-star">
+                  <span class="burger__rating-value">4.8</span>
+                </div>
+              </div>
+              <div class="burger__bottom">
+                <div class="burger__numeration">
+                  <div class="burger__numeration-number">5</div>
+                </div>
+                <p class="burger__text">After making the rice bun place above the smoked bacon and the wrap it.</p>
+              </div>
+            </section>
+            <section class="shopping-list">
+              <table class="shopping-list__table">
+                <caption class="shopping-list__caption">Shopping List</caption>
+                <thead class="shopping-list__head">
+                  <tr class="shopping-list__row">
+                    <th class="shopping-list__th">items</th>
+                    <th class="shopping-list__th"></th>
+                    <th class="shopping-list__th">quantity</th>
+                    <th class="shopping-list__th">price</th>
+                    <th class="shopping-list__th"></th>
+                  </tr>
+                </thead>
+                <tbody class="shopping-list__body">
+                  <tr class="shopping-list__row">
+                    <td class="shopping-list__td"><img src="images/oranges.png" alt="" class="shopping-list__pic"></td>
+                    <td class="shopping-list__td">
+                      <span class="shopping-list__product">Oranges</span>
+                      <br>
+                      <span class="shopping-list__td-price">$0.5/piece</span>
+                    </td>
+                    <td class="shopping-list__td">
+                      <div class="shopping-list__button">&ndash;</div>
+                      <span class="shopping-list__quantity">1</span>
+                      <div class="shopping-list__button shopping-list__button_margined">+</div>
+                    </td>
+                    <td class="shopping-list__td">
+                      <span class="shopping-list__price">$0.5</span>
+                    </td>
+                    <td class="shopping-list__td shopping-list__td_reset">
+                      <span class="shopping-list__reset">&times;</span>
+                    </td>
+                  </tr>
+                  <tr class="shopping-list__row">
+                    <td class="shopping-list__td"><img src="images/lettuce.png" alt="" class="shopping-list__pic"></td>
+                    <td class="shopping-list__td">
+                      <span class="shopping-list__product">Lettuce</span>
+                      <br>
+                      <span class="shopping-list__td-price">$1/piece</span>
+                    </td>
+                    <td class="shopping-list__td">
+                      <div class="shopping-list__button">&ndash;</div>
+                      <span class="shopping-list__quantity">21</span>
+                      <div class="shopping-list__button shopping-list__button_margined">+</div>
+                    </td>
+                    <td class="shopping-list__td">
+                      <span class="shopping-list__price">$21</span>
+                    </td>
+                    <td class="shopping-list__td shopping-list__td_reset">
+                      <span class="shopping-list__reset">&times;</span>
+                    </td>
+                  </tr>
+                  <tr class="shopping-list__row">
+                    <td class="shopping-list__td"><img src="images/strawberries.png" alt="" class="shopping-list__pic"></td>
+                    <td class="shopping-list__td">
+                      <span class="shopping-list__product">Strawberries</span>
+                      <br>
+                      <span class="shopping-list__td-price">$4/kg</span>
+                    </td>
+                    <td class="shopping-list__td">
+                      <div class="shopping-list__button">&ndash;</div>
+                      <span class="shopping-list__quantity">1</span>
+                      <div class="shopping-list__button shopping-list__button_margined">+</div>
+                    </td>
+                    <td class="shopping-list__td">
+                      <span class="shopping-list__price">$4</span>
+                    </td>
+                    <td class="shopping-list__td shopping-list__td_reset">
+                      <span class="shopping-list__reset">&times;</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="shopping-list__btns">
+                <button class="btn btn_add">Add item</button>
+                <button class="btn btn_reset">Empty list</button>
+              </div>
+            </section>
+          </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
